@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import Image from "image/link";
+import Image from "next/image";
 import Typewriter from "typewriter-effect";
 import { motion } from 'framer-motion'
 import { slideInFromLeft} from '@/utils/motion'
