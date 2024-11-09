@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroContent from '../sub/HeroContent'
-import About from '@/app/about/page'
+
 
 const Hero = () => {
     return (
