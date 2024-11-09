@@ -1,16 +1,16 @@
 "use client";
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaCloudDownloadAlt } from "react-icons/fa";
-import { slideInFromLeft } from '@/utils/motion';
+import { slideInFromLeft } from "@/utils/motion";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
+
   const pathname = usePathname();
 
   return (
@@ -32,33 +32,60 @@ const Navbar = () => {
 
         {/* Desktop Navigation Links */}
         <nav className="hidden md:flex space-x-8 text-md font-normal text-gray-100">
-          <Link href="/" className={pathname === "/" ? "text-cyan-500" : "hover:text-pink-300"}>
+          <Link
+            href="/"
+            className={
+              pathname === "/" ? "text-cyan-500" : "hover:text-pink-300"
+            }
+          >
             Home
           </Link>
-          <Link href="/about" className={pathname === "/about" ? "text-cyan-500" : "hover:text-pink-300"}>
+          <Link
+            href="/about"
+            className={
+              pathname === "/about" ? "text-cyan-500" : "hover:text-pink-300"
+            }
+          >
             About Me
           </Link>
-          <Link href="/milestones" className={pathname === "/milestones" ? "text-cyan-500" : "hover:text-pink-300"}>
+          <Link
+            href="/milestones"
+            className={
+              pathname === "/milestones"
+                ? "text-cyan-500"
+                : "hover:text-pink-300"
+            }
+          >
             Milestones
           </Link>
-          <Link href="/project" className={pathname === "/project" ? "text-cyan-500" : "hover:text-pink-300"}>
+          <Link
+            href="/project"
+            className={
+              pathname === "/project" ? "text-cyan-500" : "hover:text-pink-300"
+            }
+          >
             Projects
           </Link>
-          <Link href="/contact" className={pathname === "/contact" ? "text-cyan-500" : "hover:text-pink-300"}>
+          <Link
+            href="/contact"
+            className={
+              pathname === "/contact" ? "text-cyan-500" : "hover:text-pink-300"
+            }
+          >
             Contact
           </Link>
         </nav>
 
         {/* Download CV Button for Desktop */}
         <Link href="/Cv.pdf.pdf">
-                <motion.a
-                    variants={slideInFromLeft(1)}
-                    className='py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
-                >
-                    Download CV
-                    <FaCloudDownloadAlt className="inline-block pb-1 ml-2" />
-                </motion.a>
-                </Link>
+          <motion.a
+            variants={slideInFromLeft(1)}
+            className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          >
+            Download CV
+            <FaCloudDownloadAlt className="inline-block pb-1 ml-2" />
+          </motion.a>
+        </Link>
 
         {/* Hamburger Menu for Mobile */}
         <button
@@ -69,8 +96,8 @@ const Navbar = () => {
         </button>
       </div>
 
-     {/* Mobile Menu */}
-     {isMenuOpen && (
+      {/* Mobile Menu */}
+      {isMenuOpen && (
         <div className="md:hidden bg-[#1e0e48] p-4 opacity-1">
           <a
             href="/"
@@ -109,7 +136,6 @@ const Navbar = () => {
           </a>
         </div>
       )}
-    
     </div>
   );
 };

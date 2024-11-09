@@ -77,7 +77,6 @@ const Contact = () => {
         <div className="p-2 w-full pt-8 mt-8  border-gray-200 text-center">
           <a className="text-[#017ee0]">siddiqabadar421@gmail.com</a>
           <p className="leading-normal my-5">Follow Me</p>
-         
 
           <nav className="list-none mb-4 inline-flex gap-2 justify-center">
             <li>

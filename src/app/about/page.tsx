@@ -2,15 +2,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
-import { motion } from 'framer-motion'
-import { slideInFromLeft} from '@/utils/motion'
-
-
+import { motion } from "framer-motion";
+import { slideInFromLeft } from "@/utils/motion";
 
 const About = () => {
   return (
     <div>
-      
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
@@ -33,8 +30,8 @@ const About = () => {
               />
             </h1>
             <p className="mb-5 leading-relaxed text-gray-100">
-              I&apos;m a passionate Web developer and graphic designer dedicated to
-              turning ideas into visually stunning and functional digital
+              I&apos;m a passionate Web developer and graphic designer dedicated
+              to turning ideas into visually stunning and functional digital
               experiences. With a strong foundation in both design and
               development, I create websites that not only look beautiful but
               also perform seamlessly across all devices.
@@ -48,19 +45,18 @@ const About = () => {
               the overall user experience.
             </p>
             <div className="flex justify-center">
-            <Link href="/contact">
+              <Link href="/contact">
                 <motion.a
-                    variants={slideInFromLeft(1)}
-                    className='py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
+                  variants={slideInFromLeft(1)}
+                  className="py-2 px-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
                 >
-                    Contact Me
+                  Contact Me
                 </motion.a>
-                </Link>
+              </Link>
             </div>
           </div>
         </div>
       </section>
-  
     </div>
   );
 };
