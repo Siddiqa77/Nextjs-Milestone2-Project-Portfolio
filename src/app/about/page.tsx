@@ -16,7 +16,7 @@ const About = () => {
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <div className="flex justify-end  h-[250px] w-50  mr-[60px] mx-10 md: mb-[200px] md:mr-15 lg:w-[400px] lg:mt-5">
               <img
-                className="rounded-full w-[400px] h-[200px] bg-gray-100  md:h-[450px] lg:w-[400px] lg:h-[400px] border-8 border-gray-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ... "
+                className="rounded-full w-[300px] h-[250px] mt-10 bg-gray-100  md:h-[400px] lg:w-[350px] lg:h-[400px] border-8 border-gray-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ... "
                 src="professional.png"
                 alt=""
               />
