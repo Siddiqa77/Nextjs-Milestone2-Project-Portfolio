@@ -67,8 +67,8 @@ const Contact = () => {
             </div>
           </div>
           <div className="p-2 w-full">
-            <Link href="/siddiqa.png">
-              <button className="flex mx-auto text-black font-bold bg-purple-400 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 hover:text-gray-100 rounded text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
+            <Link href="https://mail.google.com/">
+              <button className="flex mx-auto text-black font-bold bg-purple-400 border-0 py-2 px-8 focus:outline-none hover:bg-purple-950 hover:text-gray-100 rounded text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer">
                 Send Message
               </button>
             </Link>

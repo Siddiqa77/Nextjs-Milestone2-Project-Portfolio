@@ -1,10 +1,10 @@
 import React from 'react'
 import HeroContent from '../sub/HeroContent'
-import About from '@/app/about/page'
+
 
 const Hero = () => {
     return (
-        <div className='relative flex flex-col h-full w-full' id='about-me'>
+        <div className='relative flex flex-col h-full w-full'>
              <video
                 autoPlay
                 muted

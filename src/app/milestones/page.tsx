@@ -35,7 +35,6 @@ const Milestones = () => {
     { src: "/certificate/C6.jpg", alt: "Certificate 6" },
     { src: "/certificate/C7.png", alt: "Certificate 7" },
     { src: "/certificate/C8.jpg", alt: "Certificate 8" },
-    { src: "/certificate/C9.jpg", alt: "Certificate 9" },
     { src: "/certificate/C10.jpg", alt: "Certificate 10" },
     { src: "/certificate/C11.png", alt: "Certificate 11" },
   ].map((certificate, index) => (

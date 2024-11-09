@@ -14,10 +14,10 @@ import { AiOutlineCheckSquare } from "react-icons/ai";
 const Skill = () => {
   return (
     <div>
-      <section id="skill" className="text-gray-600 body-font mb-[100px]">
+      <section className="text-gray-600 body-font mb-[100px] ">
         <div className="container px-5 py-24 mx-auto">
         <div className='w-full h-full absolute'>
-                <div className='w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover'>
+                <div className='w-full h-full z-[10] opacity-30 absolute flex items-center justify-center bg-cover'>
                     <video
                         className='w-full h-auto'
                         preload='false'
@@ -32,7 +32,7 @@ const Skill = () => {
                 </div>
                 <div className="flex flex-col text-center w-full mb-20">
          
-         <h1 className="text-[35px] font-serif font-extrabold sm:text-6xl text-3xl mb-4 text-gray-100 md:mt-2 md:ml-[60px]  text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+         <h1 className="text-[35px] font-serif font-extrabold sm:text-6xl text-3xl mb-4 text-gray-100 md:mt-2 md:ml-[60px] align-middle  text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
              My Skills
            </h1>
          </div>

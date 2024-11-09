@@ -73,35 +73,35 @@ const Navbar = () => {
      {isMenuOpen && (
         <div className="md:hidden bg-[#1e0e48] p-4 opacity-1">
           <a
-            href="#"
+            href="/"
             onClick={() => setIsMenuOpen(false)}
             className="block text-cyan-500 p-2 "
           >
             Home
           </a>
           <a
-            href="#"
+            href="about"
             onClick={() => setIsMenuOpen(false)}
             className="block text-cyan-500 p-2 "
           >
             About
           </a>
           <a
-            href="#"
+            href="milestones"
             onClick={() => setIsMenuOpen(false)}
             className="block text-cyan-500 p-2 "
           >
             Milestones
           </a>
           <a
-            href="#"
+            href="project"
             onClick={() => setIsMenuOpen(false)}
             className="block text-cyan-500 p-2 "
           >
             Project
           </a>
           <a
-            href="#"
+            href="/contact"
             onClick={() => setIsMenuOpen(false)}
             className="block text-cyan-500 p-2 "
           >
