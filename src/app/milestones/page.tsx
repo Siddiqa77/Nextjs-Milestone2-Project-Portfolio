@@ -43,7 +43,7 @@ const Milestones = () => {
         className="rounded-lg border-4 border-red-500 transition-transform ease-in-out duration-300 hover:scale-105"
         src={certificate.src}
         alt={certificate.alt}
-        width={400}
+        width={300}
         height={200}
       />
     </div>

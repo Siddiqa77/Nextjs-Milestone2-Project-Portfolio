@@ -13,13 +13,13 @@ const About = () => {
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <div className="flex justify-end  h-[250px] w-50  mr-[60px] mx-10 md: mb-[200px] md:mr-15 lg:w-[400px] lg:mt-5">
               <img
-                className="rounded-full w-[300px] h-[250px] mt-10 bg-gray-100  md:h-[400px] lg:w-[350px] lg:h-[400px] border-8 border-gray-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ... "
+                className="rounded-full w-[250] h-[200px] mt-10 bg-gray-100  md:h-[400px] lg:w-[350px] lg:h-[400px] border-8 border-gray-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ... "
                 src="professional.png"
                 alt=""
               />
             </div>
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center pb-8">
             <h1 className="text-[35px] font-serif font-extrabold sm:text-6xl text-3xl mb-4 text-gray-100 md:mt-2 md:ml-[90px]  text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               <Typewriter
                 options={{

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import {
   FaDiscord,
@@ -15,34 +16,34 @@ const Footer = () => {
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Community</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <Link href="http://www.youtube.com/@Siddiqa-345"><p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaYoutube />
               <span className="text-[15px] ml-[6px]">Youtube</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            </p></Link>
+            <Link href="https://github.com/Siddiqa77"><p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaGithub />
               <span className="text-[15px] ml-[6px]">Github</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            </p></Link>
+            <Link href="#"><p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaDiscord />
               <span className="text-[15px] ml-[6px]">Discord</span>
-            </p>
+            </p></Link>
           </div>
 
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Social Media</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+           <Link href="https://www.instagram.com/siddiqa778899/?hl=en"> <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaInstagram />
               <span className="text-[15px] ml-[6px]">Instagram</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            </p></Link>
+           <Link href="#"> <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaTwitter />
               <span className="text-[15px] ml-[6px]">Twitter</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            </p></Link>
+           <Link href="www.linkedin.com/in/siddiqa-badar-49a5692b5"> <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaLinkedin />
               <span className="text-[15px] ml-[6px]">LinkedIn</span>
-            </p>
+            </p></Link>
           </div>
 
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
@@ -55,7 +56,7 @@ const Footer = () => {
             </p>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] ml-[6px]">
-                constgenius@gmail.com
+                siddiqabadar421@gmail.com
               </span>
             </p>
           </div>
