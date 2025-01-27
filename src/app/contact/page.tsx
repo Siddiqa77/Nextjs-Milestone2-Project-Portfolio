@@ -81,7 +81,7 @@ const Contact = () => {
           <nav className="list-none mb-4 inline-flex gap-2 justify-center">
             <li>
               <Link
-                href="https://github.com/"
+                href="https://github.com/Siddiqa77"
                 className=" text-gray-100  hover:text-2xl  hover:text-gray-900"
               >
                 <FaGithub className="  hover:text-blue-500" />
