@@ -37,7 +37,7 @@ const Milestones = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4">
         {certificates.map((certificate, index) => (
           <div key={index} className="flex justify-center">
             <Image

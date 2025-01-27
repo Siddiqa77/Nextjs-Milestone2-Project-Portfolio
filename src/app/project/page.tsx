@@ -71,7 +71,7 @@ const Projects = () => {
                 <ProjectCard
                     title="React portfolio"
                     description="This is my React Portfolio website created by HTML, CSS and JS with some component libraries for better user Experience.  "
-                    src="/project5.png"
+                    src="/project8.png"
                     demourl="https://react-portfolio-opal-ten.vercel.app/"
                     codeurl="https://github.com/Siddiqa77/React-Portfolio"
                 />
