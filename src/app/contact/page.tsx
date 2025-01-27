@@ -89,7 +89,7 @@ const Contact = () => {
             </li>
             <li>
               <Link
-                href="www.linkedin.com/in/siddiqa-badar-49a5692b5"
+                href="https://www.linkedin.com/in/siddiqa-badar-49a5692b5/"
                 className="text-gray-100  hover:text-2xl  hover:text-gray-900"
               >
                 <CiLinkedin className=" hover:text-blue-500" />
@@ -97,7 +97,7 @@ const Contact = () => {
             </li>
             <li>
               <Link
-                href="www.linkedin.com/in/siddiqa-badar-49a5692b5"
+                href="https://www.facebook.com/"
                 className="text-gray-100  hover:text-2xl  hover:text-gray-900"
               >
                 <FaFacebookF className=" hover:text-blue-500" />

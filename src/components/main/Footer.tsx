@@ -5,9 +5,10 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedin,
-  FaTwitter,
+  FaFacebook,
   FaYoutube,
 } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -36,11 +37,11 @@ const Footer = () => {
               <FaInstagram />
               <span className="text-[15px] ml-[6px]">Instagram</span>
             </p></Link>
-           <Link href="#"> <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <FaTwitter />
-              <span className="text-[15px] ml-[6px]">Twitter</span>
+           <Link href="https://www.facebook.com/"> <p className="flex flex-row items-center my-[15px] cursor-pointer">
+              <FaFacebook />
+              <span className="text-[15px] ml-[6px]">Facebook</span>
             </p></Link>
-           <Link href="www.linkedin.com/in/siddiqa-badar-49a5692b5"> <p className="flex flex-row items-center my-[15px] cursor-pointer">
+           <Link href="https://www.linkedin.com/in/siddiqa-badar-49a5692b5/"> <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <FaLinkedin />
               <span className="text-[15px] ml-[6px]">LinkedIn</span>
             </p></Link>
